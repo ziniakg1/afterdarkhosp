@@ -1,0 +1,54 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Anton:wght@400;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: inherit;
+}
+
+.hero-logo {
+  opacity: 0;
+  transform: scale(0.85);
+  animation: hero-zoom-fade 1s ease-out forwards;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: hero-fade-in 1s ease-out forwards;
+}
+
+@keyframes hero-zoom-fade {
+  from {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hero-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.font-source-sans-pro {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* .font-anton {
+  font-family: 'Anton', sans-serif;
+} */
+
