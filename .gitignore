@@ -16,6 +16,7 @@ dist-ssr/
 
 # Local environment files
 backend/.env
+.env
 
 # Uploaded files
 backend/uploads/
