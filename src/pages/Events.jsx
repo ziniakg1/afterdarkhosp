@@ -17,7 +17,7 @@ function Events() {
                             <p>Saturday, November 7th</p>
                             <p>The  Lady</p>
                             <p>191 Ann Uccello St, Hartford, CT 06103</p>
-                            <img src="public/passtheaux.jpeg" alt="Pass the Aux" className="w-96 h-auto rounded-lg"/>
+                            <img src="/passtheaux.jpeg" alt="Pass the Aux" className="w-96 h-auto rounded-lg"/>
                         </div>
 
                     </div>
