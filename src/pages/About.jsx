@@ -6,16 +6,16 @@ function About() {
 
             <Link
             to="/"
-            className="absolute top-4 left-4 bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-2 px-6 rounded"
+            className="absolute top-4 left-4 bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-2 px-6 rounded"
            >
             Back to Homepage
            </Link>
 
-            <h1 className="text-[#8B0000] text-3xl md:text-4xl font-bold mb-12 font-anton text-center">About Afterdark</h1>
+            <h1 className="text-[#ffffff] text-3xl md:text-4xl font-semibold mb-12 font-roboto-mono text-center">About Afterdark</h1>
             <p className="text-[#FFFFFF] text-lg md:text-xl max-w-5xl mx-auto text-center leading-8">
                 Afterdark Hospitality was founded by Jommar Roc with one goal: to change the way people experience nightlife.<br/>
                 After years of going out, Jommar noticed the same problem everywhere he went, every club sounded the same.<br/>
-                The same playlists, same transitions, same energy. No matter where you were, the experience felt rarely unique.<br/>
+                The same playlists, same transitions, same enegy. No matter where you were, the experience felt rarely unique.<br/>
                 Instead of accepting it, he decided to build something different. Afterdark was created to bring together DJs<br/>
                 with their own identities, styles, and sounds. Rather than forcing everyone into the same formula, Afterdark is<br/>
                 building a collective of talented DJs who each bring something unique to the booth. From house and Afro house to<br/>

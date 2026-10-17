@@ -13,35 +13,14 @@ function Hero() {
                     className="hero-logo w-96 sm:w-[28rem] md:w-[36rem] lg:w-[44rem]"
                 />
 
-                <h1 className="text-[#FFFFFF] text-2xl sm:text-3xl md:text-4xl font-semibold fade-in">
+                <h1 className="text-[#FFFFFF] text-2xl sm:text-3xl md:text-4xl font-thin fade-in">
                     Creating unforgettable nightlife experiences
                 </h1>
-
-                <Link
-                    to="/Events"
-                    className="mt-8 inline-block bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-3 px-6 text-lg rounded"
-                >
-                    View Events
-                </Link>
-
-                <Link
-                    to="/About"
-                    className="mt-8 inline-block bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-3 px-6 text-lg rounded"
-                >
-                    About AfterDark
-                </Link>
-
-                <Link
-                    to="/Careers"
-                    className="mt-8 inline-block bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-3 px-6 text-lg rounded"
-                >
-                    Careers
-                </Link>
 
                 <div className="mt-4 flex items-center justify-center gap-3">
                     <button
                         onClick={() => setShowHiring(true)}
-                        className="bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-3 px-6 text-lg rounded"
+                        className="bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-3 px-6 text-lg rounded"
                     >
                         Join the Team
                     </button>
@@ -50,7 +29,7 @@ function Hero() {
                         href="https://www.instagram.com/afterdarkhosp"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-3 px-6 text-lg rounded-full transition duration-300"
+                        className="bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-3 px-6 text-lg rounded-full transition duration-300"
                     >
                         Instagram
                     </a>
@@ -60,19 +39,19 @@ function Hero() {
             {showHiring && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4">
                     <div className="bg-white rounded-3xl p-8 max-w-md w-full text-center shadow-2xl">
-                        <h1 className="text-3xl font-bold mb-3">
+                        <h1 className="text-3xl font-bold font-bebas-neue mb-3">
                             JOIN THE AFTERDARK TEAM!
                         </h1>
 
-                        <h2 className="text-xl font-semibold mb-4">
+                        <h2 className="text-xl font-thin mb-4">
                             We're building the next generation of nightlife.
                         </h2>
 
-                        <p className="text-lg mb-4">
+                        <p className="text-lg  font-thin mb-4">
                             AfterDark is expanding, and we're looking for passionate creatives who want to help redefine the party experience.
                         </p>
 
-                        <h3 className="text-lg font-bold mb-2">
+                        <h3 className="text-lg font-thin mb-2">
                             Now hiring:
                         </h3>
 
@@ -100,7 +79,7 @@ function Hero() {
                             <li>Be part of one of NYC &amp; CT's fastest-growing nightlife brands</li>
                         </ul>
 
-                        <p className="text-lg mb-6">
+                        <p className="text-lg font-thin mb-6">
                             Think you've got what it takes?
                             <br />
                             Apply now and become part of the movement.
@@ -108,7 +87,7 @@ function Hero() {
 
                         <button
                             onClick={() => setShowHiring(false)}
-                            className="bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-2 px-4 rounded"
+                            className="bg-[#000000] hover:bg-[#6B0000] text-white font-thin py-2 px-4 rounded"
                         >
                             Close
                         </button>

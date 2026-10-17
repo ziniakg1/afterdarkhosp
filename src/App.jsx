@@ -1,11 +1,12 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Hero from './components/Hero'
-import Footer from './components/Footer'
-import Events from './components/Events'
-import About from './components/About'
-import Careers from './components/Careers'
-import Apply from './components/Apply'
-import Success from './components/Success'
+import Navbar from './components/Navbar' /*fix navbar to Navbar*/
+import Hero from './pages/Hero'
+import Footer from './pages/Footer'
+import Events from './pages/Events'
+import About from './pages/About'
+import Careers from './pages/Careers'
+import Apply from './pages/Apply'
+import Success from './pages/Success'
 
 function Home() {
   return(
@@ -19,6 +20,7 @@ function Home() {
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Events" element={<Events />} />

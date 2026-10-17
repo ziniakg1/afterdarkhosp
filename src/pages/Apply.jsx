@@ -77,14 +77,14 @@ function Apply() {
 
             <Link
                 to="/"
-                className="absolute top-4 left-4 bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-2 px-6 rounded"
+                className="absolute top-4 left-4 bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-2 px-6 rounded"
             >
                 Back to Homepage
             </Link>
             
             <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8">
 
-                <h1 className="text-4xl font-bold mb-2">
+                <h1 className="text-4xl font-semibold mb-2">
                     Apply for {job.title}
                 </h1>
 

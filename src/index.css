@@ -1,9 +1,10 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Anton:wght@400;700&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;700&display=swap");
 @import "tailwindcss";
 
 :root {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -44,11 +45,13 @@ body {
   }
 }
 
-.font-source-sans-pro {
-  font-family: 'Source Sans Pro', sans-serif;
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
 }
 
-/* .font-anton {
-  font-family: 'Anton', sans-serif;
-} */
+.font-bebas-neue {
+  font-family: 'bebas neue', sans-serif;
+}
+
+
 

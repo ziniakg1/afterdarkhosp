@@ -49,7 +49,7 @@ function Careers() {
 
             <Link
                 to="/"
-                className="absolute top-4 left-4 bg-[#8B0000] hover:bg-[#6B0000] text-white font-bold py-2 px-6 rounded"
+                className="absolute top-4 left-4 bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-2 px-6 rounded"
             >
                 Back to Homepage
             </Link>
@@ -57,13 +57,9 @@ function Careers() {
             <div className="max-w-5xl mx-auto">
 
                 <div className="text-center mb-14">
-                    <h1 className="text-5xl font-bold mb-4">
+                    <h1 className="text-5xl font-semibold text-white mb-4">
                         Careers
                     </h1>
-
-                    <p className="text-lg text-gray-600">
-                        Join our team!
-                    </p>
                 </div>
 
                 <div className="space-y-8">
