@@ -8,6 +8,7 @@ function Navbar() {
                 <Link to="/Events" className="mr-8 hover:text-[#5f5f5f] transition duration-300">Events</Link>
                 <Link to="/About" className="mr-8 hover:text-[#5f5f5f] transition duration-300">About</Link>
                 <Link to="/Careers" className="mr-8 hover:text-[#5f5f5f] transition duration-300">Careers</Link>
+                <Link to="/Photos" className="mr-8 hover:text-[#5f5f5f] transition duration-300">Photos</Link>
             </div>
         </nav>
     );

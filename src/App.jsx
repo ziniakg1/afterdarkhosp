@@ -7,6 +7,7 @@ import About from './pages/About'
 import Careers from './pages/Careers'
 import Apply from './pages/Apply'
 import Success from './pages/Success'
+import Photos from './pages/Photos'
 
 function Home() {
   return(
@@ -28,12 +29,11 @@ function App() {
         <Route path="/Careers" element={<Careers />} />
         <Route path="/Apply/:id" element={<Apply />} />
         <Route path="/Success" element={<Success />} />
+        <Route path="/Photos" element={<Photos />} />
         <Route path="*" element={<div className="min-h-screen flex items-center justify-center text-2xl font-bold">404 - Page Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-
 
 export default App;
