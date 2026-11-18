@@ -11,20 +11,20 @@ function Events() {
                 <div className="bg-transparent rounded-none shadow-none border-0 p-0">
                     <div className="space-y-3">
                         <h2 className="text-3xl font-semibold text-white font-bebas-neue">
-                            Pass the Aux
+                            All Roads Leads To The Homecoming
                         </h2>
                         <div className="space-y-2 text-[#838383]">
-                            <p>Saturday, November 7th</p>
-                            <p>The  Lady</p>
-                            <p>191 Ann Uccello St, Hartford, CT 06103</p>
-                            <img src="/passtheaux.jpeg" alt="Pass the Aux" className="w-96 h-auto rounded-lg"/>
+                            <p>Friday, November 27th</p>
+                            <p>Club Vandome</p>
+                            <p>102 Hamilton St, New Haven, CT 06103</p>
+                            <img src="/homecoming.jpeg" alt="Homecoming" className="w-96 h-auto rounded-lg"/>
                         </div>
 
                     </div>
 
                     <div className="mt-8">
                         <a
-                            href="https://posh.vip/e/pass-the-aux-19?fbclid=PAVERFWAU_zHRleHRuA2FlbQIxMABwZG9mAmZkaWQWUQdLtLJW_UnO3UUEL5_I17H8EVATc3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3C1IhuRnvbqkuDDgvWvJmJ4isJjru4LTkqwy0aZASLw3D2TllLtElqC_TIw_aem_DrxvGU18BbIgTEa2qOQGnA"
+                            href="https://posh.vip/e/the-homecoming-5?fbclid=PAVERFWAVqAYxleHRuA2FlbQIxMABwZG9mAmZkaWQWUScM-AOUC5HucPQRDI_EQszUBFHrvHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_-gWxJ0KzYWj3jMS6jifquYaZhkcnCBoAIxBcC2pKpZwCivTfY_fJrrQVnp_aem_g-_DdXcTMNf12jmJNw8_sg"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-[#ffffff] hover:bg-[#5f5f5f] text-black font-thin py-2 px-6 rounded"
