@@ -17,7 +17,7 @@ function Events() {
                             <p>Friday, November 27th</p>
                             <p>Club Vandome</p>
                             <p>102 Hamilton St, New Haven, CT 06103</p>
-                            <img src="/homecoming.jpeg" alt="Homecoming" className="w-96 h-auto rounded-lg"/>
+                            <img src="/homecoming.jpg" alt="Homecoming" className="w-96 h-auto rounded-lg"/>
                         </div>
 
                     </div>
